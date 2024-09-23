@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/trible/static/css/main.9092e967.css",
+    "main.js": "/trible/static/js/main.b143fc5d.js",
+    "static/js/808.f099ca1b.chunk.js": "/trible/static/js/808.f099ca1b.chunk.js",
+    "static/js/453.9ba1f718.chunk.js": "/trible/static/js/453.9ba1f718.chunk.js",
+    "static/js/382.00295157.chunk.js": "/trible/static/js/382.00295157.chunk.js",
+    "static/media/home-banner.png": "/trible/static/media/home-banner.7923f6df602e391391ff.png",
+    "static/media/bg-setup.svg": "/trible/static/media/bg-setup.e04727cb7e904d1c08e5.svg",
+    "static/media/Right.png": "/trible/static/media/Right.7dc0ba7657adc4aae946.png",
+    "static/media/Left.png": "/trible/static/media/Left.08010e5a37f2ae6a5483.png",
+    "static/media/CardThree.png": "/trible/static/media/CardThree.f6515e0bb0e83521b831.png",
+    "static/media/CardOne.png": "/trible/static/media/CardOne.c02f262dc79144af33b9.png",
+    "static/media/CardTwo.png": "/trible/static/media/CardTwo.d3af2c9f1b7baafd1734.png",
+    "static/media/count-bg.png": "/trible/static/media/count-bg.7466a84ea882ac0e0b47.png",
+    "static/media/Logo.svg": "/trible/static/media/Logo.5f4dd141fe7550a779047701738f9de0.svg",
+    "static/media/LogoThree.png": "/trible/static/media/LogoThree.69297563d7d9e4b5389e.png",
+    "static/media/slick.svg": "/trible/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/phone.svg": "/trible/static/media/phone.af298e625ba8d4a5215142033029ed18.svg",
+    "static/media/slick.eot": "/trible/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/trible/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/trible/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/mail.svg": "/trible/static/media/mail.d3e49e0afa9fc43bdd0f3b4864daf88e.svg",
+    "static/media/search.svg": "/trible/static/media/search.0074351f0fc1d9bf9262ee7c88b61327.svg",
+    "index.html": "/trible/index.html",
+    "static/media/location.svg": "/trible/static/media/location.cb45b4d4f24cfa2e4b5c099036646aad.svg",
+    "main.9092e967.css.map": "/trible/static/css/main.9092e967.css.map",
+    "main.b143fc5d.js.map": "/trible/static/js/main.b143fc5d.js.map",
+    "808.f099ca1b.chunk.js.map": "/trible/static/js/808.f099ca1b.chunk.js.map",
+    "453.9ba1f718.chunk.js.map": "/trible/static/js/453.9ba1f718.chunk.js.map",
+    "382.00295157.chunk.js.map": "/trible/static/js/382.00295157.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9092e967.css",
+    "static/js/main.b143fc5d.js"
+  ]
+}

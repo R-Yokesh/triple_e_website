@@ -1,0 +1,41 @@
+.banner-sec img {
+    width: 100%;
+}
+
+.banner-sec {
+    position: relative;
+}
+
+.banner-sec .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    right: 0px;
+    transform: translateY(-50%);
+    width: 60%;
+    margin: auto;
+    color: var(--white);
+    text-align: center;
+}
+
+.banner-sec .banner-content h1 {
+    font-size: 75px;
+    margin-bottom: 0px;
+    line-height: 1.1;
+}
+
+.banner-sec .banner-content .row {
+    justify-content: center;
+    gap: 10px;
+    margin-top: 45px;
+}
+
+.banner-sec .banner-content .row button {
+    text-transform: uppercase;
+    border: 0px;
+    background-image: linear-gradient(to right, var(--orangeClr), var(--redClr));
+    color: var(--white);
+    padding: 10px 32px;
+    border-radius: 45px;
+    font-weight: 700;
+}

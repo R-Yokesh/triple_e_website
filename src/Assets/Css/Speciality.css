@@ -1,0 +1,28 @@
+.speciality-content h1,
+.speciality-content h5 {
+    color: var(--whiteClr);
+}
+
+.speciality-content span {
+    color: var(--darkorangeClr);
+}
+
+.speciality-image img {
+    width: 100%;
+}
+
+.speciality-main .row {
+    align-items: center;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+.speciality-content h5 {
+    line-height: 30px;
+    margin-top: 22px;
+    margin-bottom: 20px;
+}
+
+.speciality-main {
+    padding: 4% 0%;
+}

@@ -1,0 +1,56 @@
+.header-sec .justify-sec {
+    justify-content: flex-end;
+}
+
+.header-sec .logo-img {
+    width: 60%;
+}
+
+.header-sec .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.header-sec .search-sec img {
+    width: 30px;
+}
+
+.header-sec .search-sec p {
+    margin-bottom: 0px;
+    color: var(--whiteClr);
+}
+
+.header-sec .search-sec {
+    gap: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header-sec .box-display {
+    position: absolute;
+    right: 70px;
+}
+
+.header-sec .cancel-sec {
+    color: var(--whiteClr);
+}
+
+.header-sec .nav-link a {
+    color: var(--whiteClr);
+    padding: 0px 6px 6px 6px;
+}
+
+.header-sec .nav-link a:hover {
+    color: var(--whiteClr);
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, red, orange) 2;
+    text-decoration: none;
+}
+
+.header-sec .fixed-top {
+    top: 15px;
+}
+
+.header-sec .navbar-light .navbar-toggler-icon {
+    filter: invert(1);
+}

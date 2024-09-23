@@ -1,0 +1,44 @@
+.footer-sec {
+    background-color: var(--darkblueClr);
+}
+
+.footer-sec .copy-text {
+    margin-bottom: 0px;
+}
+
+.footer-sec a,
+.footer-sec p {
+    color: var(--whiteClr);
+}
+
+.footer-sec a:hover {
+    text-decoration: none;
+    color: var(--whiteClr);
+}
+
+.footer-sec p {
+    text-align: center;
+}
+
+.footer-sec {
+    padding: 3% 6% 2% 6%;
+}
+
+.footer-logo img {
+    width: 60%;
+}
+
+.row-one {
+    gap: 55px;
+    margin-bottom: 10px;
+}
+
+.footer-sec .row-reverse-sec {
+    gap: 20px;
+    margin-left: 30px;
+}
+
+.logo-spearate-sec {
+    justify-content: space-between;
+    align-items: center;
+}

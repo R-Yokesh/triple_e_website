@@ -1,0 +1,48 @@
+.count-sec {
+    color: var(--whiteClr);
+    text-align: center;
+}
+
+.count-main .row {
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
+    margin: 0px;
+}
+
+.count-main {
+    background-image: url('../Images/count-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: 100% 100%, cover;
+    padding: 5% 0%;
+    position: relative;
+}
+
+.count-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: var(--darkblueClr);
+    opacity: .7;
+    z-index: 9;
+}
+
+.orange-text {
+    color: var(--darkorangeClr);
+}
+
+.light-green-text {
+    color: var(--lightyellowClr);
+}
+
+.green-text {
+    color: var(--lightgreenClr);
+}
+
+.blue-text {
+    color: var(--skyBlue);
+}

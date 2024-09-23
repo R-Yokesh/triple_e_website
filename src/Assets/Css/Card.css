@@ -1,0 +1,36 @@
+.card-sec {
+    position: relative;
+}
+
+.card-sec .card-content {
+    color: var(--whiteClr);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    padding: 0px 30px;
+    left: 0px;
+    right: 0px;
+    z-index: 9;
+}
+
+.card-sec img {
+    width: 100%;
+}
+
+.card-main {
+    transform: translateY(-20%);
+}
+
+.card-sec {
+    position: relative;
+}
+
+.card-sec .card-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    /* background-color: var(--blackClr); */
+    background-image: linear-gradient(to top, var(--blackClr) 55%, transparent);
+    opacity: .5;
+}

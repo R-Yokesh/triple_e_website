@@ -1,0 +1,63 @@
+.tree-sec img {
+    width: 100%;
+}
+
+.tree-sec {
+    margin: auto;
+    position: relative;
+}
+
+.tree-sec-main {
+    padding-top: 180px;
+}
+
+.tree-content .tree-head {
+    color: var(--yellowClr);
+    margin-bottom: 2px;
+}
+
+.tree-content .tree-text {
+    color: var(--whiteClr);
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+.tree-content {
+    background-color: var(--blueClr);
+    padding: 2%;
+    border-radius: 25px;
+    position: absolute;
+    width: 32.5%;
+}
+
+.top-left {
+    left: 0px;
+    top: 0px;
+    transform: translateY(-50%);
+}
+
+.top-right {
+    right: 0px;
+    top: 0px;
+    transform: translateY(-50%);
+}
+
+.center-left {
+    top: 40%;
+    left: -19px;
+    transform: translateY(-50%);
+}
+
+.center-right {
+    top: 40%;
+    right: -19px;
+    transform: translateY(-50%);
+}
+
+.bottom-center {
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    bottom: 0px;
+    height: 184px;
+}

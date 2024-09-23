@@ -1,0 +1,320 @@
+:root {
+  --whiteClr: #fff;
+  --blackClr: #000;
+  --blueClr: #181833;
+  --darkblueClr: #000011;
+  --yellowClr: #FFDF00;
+  --orangeClr: #FF9000;
+  --redClr: #FF0000;
+  --darkorangeClr: #D85A13;
+  --lightyellowClr: #E1FF06;
+  --lightgreenClr: #69FF08;
+  --skyBlue: #08E2FF;
+
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+@import url('./Assets/Css/Header.css');
+@import url('./Assets/Css/Banner.css');
+@import url('./Assets/Css/Card.css');
+@import url('./Assets/Css/Footer.css');
+@import url('./Assets/Css/Contact.css');
+@import url('./Assets/Css/Home.css');
+@import url('./Assets/Css/Count.css');
+@import url('./Assets/Css/Speciality.css');
+@import url('./Assets/Css/Tree.css');
+
+.App .common-space {
+  padding: 0px 6%;
+}
+
+@media screen and (min-width: 1300px) {
+  .bottom-center {
+    bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .bottom-center {
+    bottom: 154px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .bottom-center {
+    bottom: 170px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .banner-sec .banner-content h1 {
+    font-size: 40px;
+  }
+
+  .contact-content h1 {
+    font-size: 40px;
+  }
+
+  .about-text {
+    gap: 25px;
+  }
+
+  .count-sec h4 {
+    font-size: 18px;
+  }
+
+  .count-sec h2 {
+    font-size: 25px;
+  }
+
+  .bottom-center {
+    height: 165px;
+  }
+
+  .tree-content {
+    width: 35.5%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .card-content h3 {
+    font-size: 20px;
+  }
+
+  .card-content h5 {
+    font-size: 16px;
+  }
+
+  .card-sec .card-content {
+    top: 35%;
+    padding: 0px 15px;
+  }
+
+  .count-main .row {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .speciality-content h5 {
+    margin-bottom: 30px;
+  }
+
+  .tree-content {
+    width: 42%;
+  }
+
+  .bottom-center {
+    height: auto;
+  }
+
+  .tree-content .tree-head {
+    font-size: 14px;
+  }
+
+  .tree-content .tree-text {
+    font-size: 12px;
+  }
+
+  .tree-content {
+    padding: 1% 2%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .banner-sec .banner-content h1 {
+    font-size: 30px;
+  }
+
+  .banner-sec .banner-content .row button {
+    color: var(--white);
+    padding: 10px 25px;
+    font-size: 12px;
+  }
+
+  .about-head {
+    font-size: 30px;
+  }
+
+  .about-text h1 {
+    font-size: 30px;
+  }
+
+  .about-text {
+    gap: 12px;
+  }
+
+  .card-sec .card-content {
+    top: 10px;
+  }
+
+  .card-content h5 {
+    font-size: 14px;
+  }
+
+  .card-sec .card-content {
+    padding: 0px 8px;
+  }
+
+  .speciality-content h1 {
+    font-size: 30px;
+  }
+
+  .contact-content h1 {
+    font-size: 30px;
+  }
+
+  .tree-sec-main .tree-content {
+    position: inherit;
+    transform: translateY(0%);
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 13px;
+    padding: 4% 6%;
+  }
+
+  .tree-content .tree-text {
+    font-size: 16px;
+  }
+
+  .tree-content .tree-head {
+    font-size: 20px;
+  }
+
+  .tree-sec img {
+    display: none;
+  }
+
+  .tree-sec-main {
+    padding: 10% 0%;
+  }
+
+}
+
+@media screen and (max-width: 575px) {
+  .card-main {
+    transform: translateY(0%);
+    padding-top: 10%;
+  }
+
+  .card-sec .card-content {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .card-content h3 {
+    font-size: 25px;
+  }
+
+  .card-content h5 {
+    font-size: 20px;
+  }
+
+  .card-sec {
+    margin-bottom: 35px;
+  }
+
+  .footer-sec .row-reverse-sec {
+    margin-left: 0px;
+  }
+
+  .footer-sec .row {
+    justify-content: center;
+  }
+
+  .footer-logo {
+    text-align: center;
+  }
+
+  .contact-form-sec label {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .banner-sec .banner-content {
+    width: 100%;
+  }
+
+  .banner-sec .banner-content .row {
+    margin-top: 10px;
+  }
+
+  .banner-sec .banner-content h1 {
+    font-size: 20px;
+  }
+
+  .header-sec .fixed-top {
+    top: 0px;
+    padding-top: 2px;
+  }
+
+  .header-sec .logo-img {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 405px) {
+
+  .about-head,
+  .about-text h1,
+  .speciality-content h1,
+  .contact-content h1 {
+    font-size: 25px;
+  }
+
+  .about-text h5,
+  .speciality-content h5,
+  .contact-content h5 {
+    font-size: 16px;
+  }
+
+  .speciality-content h5 {
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+
+  .speciality-main .row {
+    margin-bottom: 28px;
+  }
+
+  .contact-content h5 {
+    padding: 5% 0% 5% 0%;
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    width: 100%;
+    margin: 20px 0px;
+  }
+
+  .footer-links .row,
+  .footer-links .row a {
+    display: block;
+  }
+
+  .banner-sec .banner-content {
+    top: 65%;
+  }
+
+  .banner-sec .banner-content .row button {
+    padding: 8px 15px;
+  }
+
+  .tree-content .tree-head {
+    font-size: 18px;
+  }
+
+  /* .header-sec .fixed-top {
+    flex-wrap: nowrap;
+  } */
+}

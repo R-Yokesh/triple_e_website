@@ -1,0 +1,52 @@
+.background-setup {
+    background-color: var(--darkblueClr);
+    background-image: url('../Images/bg-setup.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.about-head .yellow {
+    color: var(--yellowClr);
+}
+
+.about-head .orange {
+    color: var(--orangeClr);
+}
+
+.about-head .red {
+    color: var(--redClr);
+}
+
+.about-text h1,
+.about-text h5 {
+    color: var(--whiteClr);
+}
+
+.about-text {
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    padding: 4% 0%;
+}
+
+.about-head {
+    text-align: center;
+}
+
+.about-head span {
+    margin-right: 12px;
+}
+
+.client-logo-img {
+    width: 70%;
+    margin: auto;
+}
+
+.client-slide-main {
+    background-color: var(--blueClr);
+    padding: 3% 0%;
+}
+
+.client-slide-main .slick-arrow {
+    display: none;
+}
