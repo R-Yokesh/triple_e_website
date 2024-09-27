@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
@@ -12,17 +12,19 @@ function App() {
         <div className='navbar-main'>
           <Header />
         </div>
-        <Routes>
-          {RoutesData.map((data, i) => (
-            <Route
-              key={i}
-              path={data.path}
-              element={<data.element />}
-            />
+        <Suspense>
+          <Routes>
+            {RoutesData.map((data, i) => (
+              <Route
+                key={i}
+                path={data.path}
+                element={<data.element />}
+              />
 
-          ))}
+            ))}
 
-        </Routes>
+          </Routes>
+        </Suspense>
         <div className='footer-main'>
           <Footer />
         </div>

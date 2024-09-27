@@ -15,7 +15,7 @@ function Footer() {
                 <div className='footer-links'>
                     <div className='row row-one'>
                         <Link to='/'>Home</Link>
-                        <Link to='/'>About</Link>
+                        <Link to='/about'>About</Link>
                         <Link to='/'>News</Link>
                         <Link to='/'>Contact</Link>
                     </div>

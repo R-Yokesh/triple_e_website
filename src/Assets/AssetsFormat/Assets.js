@@ -19,6 +19,13 @@ import LogoSeven from '../Images/ClientLogo/logoSeven.png';
 import LogoEight from '../Images/ClientLogo/logoEight.png';
 import LogoNine from '../Images/ClientLogo/logoNine.png';
 import TreeIcon from '../Images/tree-setup.svg';
+import ClientOne from '../Images/StrategicClient/clientOne.png';
+import ClientTwo from '../Images/StrategicClient/clientTwo.png';
+import ClientThree from '../Images/StrategicClient/ClientThree.png';
+import ClientFour from '../Images/StrategicClient/ClientFour.png';
+import ClientFive from '../Images/StrategicClient/ClientFive.png';
+import ClientSix from '../Images/StrategicClient/ClientSix.png';
+import AboutBanner from '../Images/Banners/about-banner.png';
 
 const Assets = {
     Logo,
@@ -41,7 +48,14 @@ const Assets = {
     LogoSeven,
     LogoEight,
     LogoNine,
-    TreeIcon
+    TreeIcon,
+    ClientOne,
+    ClientTwo,
+    ClientThree,
+    ClientFour,
+    ClientFive,
+    ClientSix,
+    AboutBanner
 }
 
 export default Assets;

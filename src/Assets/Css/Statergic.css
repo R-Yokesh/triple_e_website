@@ -1,0 +1,42 @@
+.head-orange {
+    color: var(--darkorangeClr);
+}
+
+.head-orange span {
+    color: var(--whiteClr);
+}
+
+.affication-sec-main {
+    color: var(--whiteClr);
+    padding-top: 6%;
+}
+
+.affiliation-sec h4,
+.affiliation-sec h5 {
+    color: var(--whiteClr);
+}
+
+.strategic-client-logo img {
+    width: 60%;
+}
+
+.strategic-client-logo {
+    text-align: center;
+}
+
+.strategic-client-logo {
+    margin-bottom: 30px;
+}
+
+.strategic-client-sec {
+    width: 80%;
+    margin: auto;
+    padding: 2% 0%;
+    border-bottom: 1.5px solid transparent;
+    border-image: linear-gradient(to right, var(--orangeClr) 80%, var(--redClr)) 2;
+}
+
+.strategic-client-sec .row {
+    justify-content: center;
+    align-items: center;
+}

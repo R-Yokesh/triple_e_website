@@ -30,6 +30,9 @@ body {
 @import url('./Assets/Css/Count.css');
 @import url('./Assets/Css/Speciality.css');
 @import url('./Assets/Css/Tree.css');
+@import url('./Assets/Css/Statergic.css');
+@import url('./Assets/Css/WorkCard.css');
+@import url('./Assets/Css/About.css');
 
 .App .common-space {
   padding: 0px 6%;
@@ -125,6 +128,16 @@ body {
   .tree-content {
     padding: 1% 2%;
   }
+
+  .work-card-sec .row {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .work-card-content {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -196,6 +209,27 @@ body {
     padding: 10% 0%;
   }
 
+  .card-img img {
+    margin-bottom: 15px;
+  }
+
+  .work-card-sec {
+    margin-bottom: 35px;
+  }
+
+  .affiliation-sec .head-orange {
+    font-size: 30px;
+  }
+
+  .affiliation-sec h4,
+  .affiliation-sec h5 {
+    font-size: 20px;
+  }
+
+  .strategic-client-sec {
+    width: 100%;
+  }
+
 }
 
 @media screen and (max-width: 575px) {
@@ -259,6 +293,10 @@ body {
   .header-sec .logo-img {
     width: 45%;
   }
+
+  .App button {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 405px) {
@@ -266,13 +304,16 @@ body {
   .about-head,
   .about-text h1,
   .speciality-content h1,
-  .contact-content h1 {
+  .contact-content h1,
+  .affiliation-sec .head-orange {
     font-size: 25px;
   }
 
   .about-text h5,
   .speciality-content h5,
-  .contact-content h5 {
+  .contact-content h5,
+  .affiliation-sec h4,
+  .affiliation-sec h5 {
     font-size: 16px;
   }
 
@@ -313,8 +354,4 @@ body {
   .tree-content .tree-head {
     font-size: 18px;
   }
-
-  /* .header-sec .fixed-top {
-    flex-wrap: nowrap;
-  } */
 }

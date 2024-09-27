@@ -9,6 +9,9 @@ import CountSection from '../Components/CountSection/CountSection';
 import Speciality from '../Components/Speciality/Speciality';
 import ClientSlide from '../Components/ClientSlide/ClientSlide';
 import TreeSection from '../Components/TreeSection/TreeSection';
+import AffiliationSection from '../Components/AffiliationSection/AffiliationSection';
+import ClientSection from '../Components/ClientSection/ClientSection';
+import WorkCard from '../Components/WorkCard/WorkCard';
 
 function HomeView() {
 
@@ -110,6 +113,37 @@ function HomeView() {
         },
     ]
 
+    const OurWorkContent = [
+        {
+            id: 1,
+            image: Assets.leftSpeciality,
+            head: 'Unwavering Quality:',
+            content: `From day one, our commitment to quality and client satisfaction has propelled us to set new industry standards. Excellence isn’t just a goal; it’s our foundation.`,
+            link: ''
+        },
+        {
+            id: 2,
+            image: Assets.leftSpeciality,
+            head: 'Unwavering Quality:',
+            content: `From day one, our commitment to quality and client satisfaction has propelled us to set new industry standards. Excellence isn’t just a goal; it’s our foundation.`,
+            link: ''
+        },
+        {
+            id: 3,
+            image: Assets.leftSpeciality,
+            head: 'Unwavering Quality:',
+            content: `From day one, our commitment to quality and client satisfaction has propelled us to set new industry standards. Excellence isn’t just a goal; it’s our foundation.`,
+            link: ''
+        },
+        {
+            id: 4,
+            image: Assets.leftSpeciality,
+            head: 'Unwavering Quality:',
+            content: `From day one, our commitment to quality and client satisfaction has propelled us to set new industry standards. Excellence isn’t just a goal; it’s our foundation.`,
+            link: ''
+        }
+    ]
+
     return (
         <div className='home-main'>
             <div className='banner-main'>
@@ -157,11 +191,27 @@ function HomeView() {
                         <ClientSlide />
                     </div>
                 </div>
-                {/* <div className='affication-sec-main'>
-                    <div className='comman-space'>
-
+                <div className='affication-sec-main'>
+                    <div className='common-space'>
+                        <AffiliationSection />
+                        <ClientSection />
                     </div>
-                </div> */}
+                </div>
+                <div className='our-work-main'>
+                    <div className='common-space'>
+                        <h1>Our Work</h1>
+                        <div className='row'>
+                            {OurWorkContent.map((item, i) => (
+                                <div className='col-12 col-md-6' key={i}>
+                                    <WorkCard data={item} />
+                                </div>
+                            ))}
+                        </div>
+                        <div className='more-project-btn'>
+                            <button>See more projects</button>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div className='contact-main'>
                 <div className='common-space'>

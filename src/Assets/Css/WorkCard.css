@@ -1,0 +1,54 @@
+.work-card-content .card-color-text,
+.card-link-sec a {
+    color: var(--yellowClr);
+}
+
+.work-card-content {
+    color: var(--whiteClr);
+    width: 80%;
+}
+
+.card-img img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.work-card-sec .row {
+    justify-content: space-between;
+    margin: 0px;
+    flex-wrap: nowrap;
+    width: 85%;
+    margin: auto;
+    align-items: flex-end;
+}
+
+.our-work-main h1 {
+    color: var(--darkorangeClr);
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.our-work-main {
+    padding: 4% 0%;
+}
+
+.work-card-sec {
+    margin-bottom: 55px;
+}
+
+.work-card-content p {
+    margin-bottom: 0px;
+}
+
+.more-project-btn button {
+    border: 0px;
+    background: linear-gradient(to right, var(--orangeClr), var(--redClr), var(--redClr));
+    color: var(--white);
+    padding: 10px 45px;
+    border-radius: 12px;
+    font-weight: 700;
+}
+
+.more-project-btn {
+    text-align: center;
+}
