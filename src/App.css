@@ -34,6 +34,14 @@ body {
 @import url('./Assets/Css/WorkCard.css');
 @import url('./Assets/Css/About.css');
 
+
+@font-face {
+  font-family: 'ArgueDemo';
+  src: url('./Assets/Fonts/FontsFree-Net-Arguedemo-w1PrZ.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .App .common-space {
   padding: 0px 6%;
 }

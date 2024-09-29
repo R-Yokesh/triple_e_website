@@ -1,0 +1,137 @@
+/* Recent News Container */
+.recent-news-container {
+  display: flex;
+  padding: 50px 0px;
+}
+
+.recent-news-left {
+  flex: 0 0 30%;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.recent-news-left h2 {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.search-bar {
+  position: relative;
+  width: 100%;
+}
+
+.search-bar input {
+  width: 80%;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+  border: 2px solid transparent;
+  transition: border 0.3s ease;
+  border-image: linear-gradient(to right, var(--orangeClr), var(--redClr)) 1;
+}
+
+.search-bar input::placeholder {
+  color: #888;
+}
+
+.search-bar input:focus {
+  border-color: #fff; /* Optional: Change border color on focus */
+}
+
+.recent-news-right {
+  flex: 0 0 70%;
+  display: flex;
+  gap: 20px;
+}
+
+.news-card {
+  background-color: #141414;
+  overflow: hidden;
+  width: calc(100% / 3 - 20px);
+}
+
+.news-card img {
+  width: 100%;
+  height: auto;
+}
+
+.news-details {
+  padding: 10px;
+  color: white;
+}
+
+.news-details p {
+  margin: 0;
+  color: #888;
+  font-size: 12px;
+}
+
+.news-details h3 {
+  margin: 10px 0;
+  color: white;
+  font-size: 16px;
+}
+
+/* All News Container */
+.all-news-container {
+  display: flex;
+  padding: 50px 0px;
+}
+
+.all-news-left {
+  flex: 0 0 30%;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.all-news-left h2 {
+  font-size: 36px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.text-below h5 {
+  color: white;
+}
+
+.text-below h5:hover {
+  color: #ff0000;
+}
+
+.all-news-right {
+  flex: 0 0 70%;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Specific styling for news-details in .all-news-container */
+.all-news-container .news-card {
+  position: relative;
+}
+
+.all-news-container .news-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.all-news-container .news-details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  /* background-color: rgba(0, 0, 0, 0.6);  */
+  color: white;
+  opacity: 1; /* Always visible */
+}

@@ -1,5 +1,5 @@
 .banner-sec img {
-    width: 100%;
+    /* width: 100%; */
 }
 
 .banner-sec {
@@ -19,7 +19,7 @@
 }
 
 .banner-sec .banner-content h1 {
-    font-size: 75px;
+    font-size: 50px;
     margin-bottom: 0px;
     line-height: 1.1;
 }

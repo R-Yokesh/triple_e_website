@@ -27,6 +27,7 @@ import ClientFive from '../Images/StrategicClient/ClientFive.png';
 import ClientSix from '../Images/StrategicClient/ClientSix.png';
 import AboutBanner from '../Images/Banners/about-banner.png';
 
+
 const Assets = {
     Logo,
     Search,
@@ -55,7 +56,7 @@ const Assets = {
     ClientFour,
     ClientFive,
     ClientSix,
-    AboutBanner
+    AboutBanner,
 }
 
 export default Assets;
