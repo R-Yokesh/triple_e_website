@@ -5,6 +5,8 @@ import ContactAddress from '../Components/ContactAddress/ContactAddress';
 import ContactForm from '../Components/ContactForm/ContactForm';
 import RecentNews from '../Components/RecentNews/RecentNews';
 
+
+
 function NewsView() {
     return (
         <div className='newspage-main'>

@@ -14,6 +14,8 @@
 
 .recent-news-left h2 {
   font-size: 3rem;
+  font-family: 'Avenir Heavy';
+  font-weight: 800; 
   color: white;
   margin-bottom: 50px;
 }
@@ -27,14 +29,13 @@
   width: 80%;
   padding: 10px 15px;
   border-radius: 20px;
-  border: none;
+  border: 2px solid transparent;
   outline: none;
-  background-color: #333;
+  background-color: transparent; /* Make the input transparent */
   color: white;
   font-size: 16px;
-  border: 2px solid transparent;
+  border-image: linear-gradient(to right, #f9d423, #ff4e50) 1; /* Gradient border */
   transition: border 0.3s ease;
-  border-image: linear-gradient(to right, var(--orangeClr), var(--redClr)) 1;
 }
 
 .search-bar input::placeholder {
@@ -42,13 +43,17 @@
 }
 
 .search-bar input:focus {
-  border-color: #fff; /* Optional: Change border color on focus */
+  border-color: transparent; /* Keep the gradient on focus */
 }
+
+
+
+
 
 .recent-news-right {
   flex: 0 0 70%;
   display: flex;
-  gap: 20px;
+  gap: 50px;
 }
 
 .news-card {
@@ -69,14 +74,17 @@
 
 .news-details p {
   margin: 0;
-  color: #888;
+  color: #fff;
   font-size: 12px;
+  font-family: 'Maven Pro', sans-serif;
 }
 
 .news-details h3 {
-  margin: 10px 0;
+  margin: 0;
   color: white;
-  font-size: 16px;
+  font-size: 14px;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 700;
 }
 
 /* All News Container */
@@ -100,7 +108,10 @@
 }
 
 .text-below h5 {
+  font-size: 14px;
+  font-family: 'Maven Pro', sans-serif;
   color: white;
+
 }
 
 .text-below h5:hover {
@@ -110,7 +121,7 @@
 .all-news-right {
   flex: 0 0 70%;
   display: flex;
-  gap: 20px;
+  gap: 30px;
   flex-wrap: wrap;
 }
 

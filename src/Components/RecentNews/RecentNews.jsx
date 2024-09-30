@@ -1,7 +1,9 @@
 import React from 'react';
 import '../../Assets/Css/RecentNews.css'
-import RNewsCard1 from '../../Assets/Images/NewsCard/NC 5.jpg';
-import RNewsCard2 from '../../Assets/Images/NewsCard/NC 2.png';
+import RN1 from '../../Assets/Images/NewsCard/NC 5.png'
+import RN2 from '../../Assets/Images/NewsCard/NC 2.png'
+import AN1 from '../../Assets/Images/NewsCard/NC 3.png'
+import AN2 from '../../Assets/Images/NewsCard/NC 4.png'
 
 
 
@@ -22,7 +24,7 @@ const RecentNews = () => {
       {/* Right Column - 70% */}
       <div className="recent-news-right">
         <div className="news-card">
-          <img src="https://placehold.co/242x240" alt="News 1" />
+          <img src={RN1} alt="News 1" />
           <div className="news-details">
             <p>29th July, 2017</p>
             <h3>Lorem ipsum dolor sit amet,</h3>
@@ -31,7 +33,7 @@ const RecentNews = () => {
         </div>
 
         <div className="news-card">
-          <img src={RNewsCard2} alt="News 2" />
+          <img src={RN2} alt="News 2" />
           <div className="news-details">
             <p>29th July, 2017</p>
             <h3>Lorem ipsum dolor sit amet,</h3>
@@ -40,7 +42,7 @@ const RecentNews = () => {
         </div>
 
         <div className="news-card">
-          <img src="https://placehold.co/242x240" alt="News 3" />
+          <img src={RN1} alt="News 3" />
           <div className="news-details">
             <p>29th July, 2017</p>
             <h3>Lorem ipsum dolor sit amet,</h3>
@@ -68,7 +70,7 @@ const RecentNews = () => {
       {/* Right Column - 70% */}
       <div className="all-news-right">
         <div className="news-card">
-          <img src="https://placehold.co/242x240" alt="News 1" />
+          <img src={AN1} alt="News 1" />
           <div className="news-details">
             <p>29th July, 2017</p>
             <h3>Lorem ipsum dolor sit amet,</h3>
@@ -77,7 +79,7 @@ const RecentNews = () => {
         </div>
 
         <div className="news-card">
-          <img src="https://placehold.co/242x240" alt="News 2" />
+          <img src={AN2} alt="News 2" />
           <div className="news-details">
             <p>29th July, 2017</p>
             <h3>Lorem ipsum dolor sit amet,</h3>
@@ -86,7 +88,7 @@ const RecentNews = () => {
         </div>
 
         <div className="news-card">
-          <img src="https://placehold.co/242x240" alt="News 3" />
+          <img src={AN1} alt="News 3" />
           <div className="news-details">
             <p>29th July, 2017</p>
             <h3>Lorem ipsum dolor sit amet,</h3>
@@ -95,7 +97,7 @@ const RecentNews = () => {
         </div>
 
         <div className="news-card">
-          <img src="https://placehold.co/242x240" alt="News 1" />
+          <img src={AN2} alt="News 1" />
           <div className="news-details">
             <p>29th July, 2017</p>
             <h3>Lorem ipsum dolor sit amet,</h3>
@@ -104,7 +106,7 @@ const RecentNews = () => {
         </div>
 
         <div className="news-card">
-          <img src="https://placehold.co/242x240" alt="News 1" />
+          <img src={AN1} alt="News 1" />
           <div className="news-details">
             <p>29th July, 2017</p>
             <h3>Lorem ipsum dolor sit amet,</h3>
@@ -113,7 +115,7 @@ const RecentNews = () => {
         </div>
 
         <div className="news-card">
-          <img src="https://placehold.co/242x240" alt="News 1" />
+          <img src={AN2} alt="News 1" />
           <div className="news-details">
             <p>29th July, 2017</p>
             <h3>Lorem ipsum dolor sit amet,</h3>
@@ -122,7 +124,7 @@ const RecentNews = () => {
         </div>
 
         <div className="news-card">
-          <img src="https://placehold.co/242x240" alt="News 1" />
+          <img src={AN1} alt="News 1" />
           <div className="news-details">
             <p>29th July, 2017</p>
             <h3>Lorem ipsum dolor sit amet,</h3>
@@ -131,7 +133,7 @@ const RecentNews = () => {
         </div>
 
         <div className="news-card">
-          <img src="https://placehold.co/242x240" alt="News 1" />
+          <img src={AN2} alt="News 2" />
           <div className="news-details">
             <p>29th July, 2017</p>
             <h3>Lorem ipsum dolor sit amet,</h3>
@@ -140,7 +142,7 @@ const RecentNews = () => {
         </div>
 
         <div className="news-card">
-          <img src="https://placehold.co/242x240" alt="News 1" />
+          <img src={AN1} alt="News 3" />
           <div className="news-details">
             <p>29th July, 2017</p>
             <h3>Lorem ipsum dolor sit amet,</h3>
