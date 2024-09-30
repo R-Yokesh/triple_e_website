@@ -16,7 +16,7 @@ function Footer() {
                     <div className='row row-one'>
                         <Link to='/'>Home</Link>
                         <Link to='/about'>About</Link>
-                        <Link to='/'>News</Link>
+                        <Link to='/news'>News</Link>
                         <Link to='/'>Contact</Link>
                     </div>
                     <div className='row row-reverse-sec'>

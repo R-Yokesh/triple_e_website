@@ -4,6 +4,7 @@ import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import RoutesData from './Routes/RoutesData';
 import './App.css';
+import ScrollToTop from './Components/ScrollTop/ScrollTop';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Header />
         </div>
         <Suspense>
+          <ScrollToTop />
           <Routes>
             {RoutesData.map((data, i) => (
               <Route
