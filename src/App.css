@@ -138,6 +138,15 @@ body {
     width: 100%;
     margin-bottom: 10px;
   }
+
+  .vision-text {
+    margin-top: 20px;
+  }
+
+  .mission-image img {
+    padding: 0% 6%;
+    margin-top: 25px;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -155,7 +164,10 @@ body {
     font-size: 30px;
   }
 
-  .about-text h1 {
+  .about-text h1,
+  .vision-main h1,
+  .mission-head-text,
+  .leader-text h1 {
     font-size: 30px;
   }
 
@@ -282,7 +294,7 @@ body {
   }
 
   .banner-sec .banner-content h1 {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .header-sec .fixed-top {
@@ -305,7 +317,10 @@ body {
   .about-text h1,
   .speciality-content h1,
   .contact-content h1,
-  .affiliation-sec .head-orange {
+  .affiliation-sec .head-orange,
+  .vision-main h1,
+  .mission-head-text,
+  .leader-text h1 {
     font-size: 25px;
   }
 
@@ -313,7 +328,12 @@ body {
   .speciality-content h5,
   .contact-content h5,
   .affiliation-sec h4,
-  .affiliation-sec h5 {
+  .affiliation-sec h5,
+  .affiliation-sec h5,
+  .vision-main h5,
+  .mission-content .accordion-header button,
+  .accord-head,
+  .leader-text h5 {
     font-size: 16px;
   }
 
@@ -353,5 +373,12 @@ body {
 
   .tree-content .tree-head {
     font-size: 18px;
+  }
+
+  .icon-img {
+    float: right;
+    margin-right: 0px;
+    margin-top: 5px;
+    width: 16px;
   }
 }

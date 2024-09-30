@@ -1,3 +1,106 @@
 .ethos-main {
     padding: 5% 0%;
 }
+
+.vision-img img {
+    width: 90%;
+}
+
+.vision-main h1,
+.vision-main h5 {
+    color: var(--whiteClr);
+}
+
+.vision-clr-change {
+    color: var(--darkorangeClr);
+}
+
+.vision-main h1 {
+    margin-bottom: 25px;
+}
+
+.vision-main h5 {
+    margin-bottom: 20px;
+}
+
+.mission-image img {
+    width: 100%;
+    padding-right: 6%;
+}
+
+.mission-main {
+    margin-top: 6%;
+}
+
+.accord-head {
+    color: var(--yellowClr);
+    margin-bottom: 0px;
+}
+
+.accord-white {
+    color: var(--whiteClr);
+    margin-bottom: 0px;
+}
+
+.mission-content .accord-body {
+    color: var(--whiteClr);
+}
+
+.mission-content .accordion-header button {
+    border: 0px;
+    background: 0px;
+    font-size: 20px;
+    padding: 0px;
+    width: 100%;
+    text-align: left;
+
+}
+
+.mission-content .accordion-header {
+    margin-bottom: 0px;
+}
+
+.bg-accord {
+    background-color: var(--blueClr);
+}
+
+.accord-space {
+    padding: 2% 0%;
+    border-bottom: 1.5px solid var(--whiteClr);
+}
+
+.mission-head-text {
+    color: var(--darkorangeClr);
+    margin-bottom: 30px;
+}
+
+.icon-img {
+    width: 25px;
+    float: right;
+    margin-right: 20px;
+}
+
+.leader-orange {
+    color: var(--darkorangeClr);
+}
+
+.leader-text h5,
+.leader-text h1 {
+    color: var(--whiteClr);
+}
+
+.leadership-main {
+    padding: 6% 0%;
+}
+
+.leader-img img {
+    width: 50%;
+}
+
+.leader-img {
+    text-align: center;
+}
+
+.leadership-main .row {
+    align-items: center;
+}

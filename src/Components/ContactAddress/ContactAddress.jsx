@@ -11,15 +11,16 @@ function ContactAddress() {
             <div className='contact-links'>
                 <div className='row'>
                     <img src={Assets.CallIcon} alt="Call-icon" />
-                    <a href="tel:+918940952798">+91 8940952798</a>
+                    <a href="tel:+966581677070">+966581677070</a>
+                    <a href="tel:+966501007811">+966501007811</a>
                 </div>
-                <div className='row'>
+                {/* <div className='row'>
                     <img src={Assets.MailIcon} alt="Mail-icon" />
                     <a href="mailto:contact@example.com">contact@example.com</a>
-                </div>
+                </div> */}
                 <div className='row'>
                     <img src={Assets.LocationIcon} alt="Location-icon" />
-                    <a href="#" target='_blank'>Company Address</a>
+                    <a href="#" target='_blank'>No:9, 1st floor, AI Ghadeer Center <br /> King Abdulaziz Road <br />Riyadh</a>
                 </div>
             </div>
         </section>

@@ -26,6 +26,10 @@ import ClientFour from '../Images/StrategicClient/ClientFour.png';
 import ClientFive from '../Images/StrategicClient/ClientFive.png';
 import ClientSix from '../Images/StrategicClient/ClientSix.png';
 import AboutBanner from '../Images/Banners/about-banner.png';
+import Vision from '../Images/vision.png';
+import DropdownIcon from '../Images/Dropdown.svg';
+import MinusIcon from '../Images/Minus.svg';
+import LeaderLogo from '../Images/leader-logo.png';
 
 const Assets = {
     Logo,
@@ -55,7 +59,11 @@ const Assets = {
     ClientFour,
     ClientFive,
     ClientSix,
-    AboutBanner
+    AboutBanner,
+    Vision,
+    DropdownIcon,
+    MinusIcon,
+    LeaderLogo
 }
 
 export default Assets;
