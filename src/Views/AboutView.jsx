@@ -28,6 +28,15 @@ function AboutView() {
                 <div className='mission-main'>
                     <MissionSection />
                 </div>
+                <div className='team-main'>
+                    <div className='common-space'>
+                        <div className='row'>
+                            <div className='col-12 col-sm-6 col-lg-3'>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className='leadership-main'>
                     <div className='common-space'>
                         <LeaderShipSection />
