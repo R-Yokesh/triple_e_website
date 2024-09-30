@@ -1,3 +1,6 @@
+.speciality-content h1{
+    font-size:3.5rem;
+}
 .speciality-content h1,
 .speciality-content h5 {
     color: var(--whiteClr);
@@ -21,8 +24,13 @@
     line-height: 30px;
     margin-top: 22px;
     margin-bottom: 20px;
+    font-family: 'Maven Pro';
 }
 
 .speciality-main {
     padding: 4% 0%;
+}
+
+.speciality-content h1{
+    font-family: 'ArgueDemo', sans-serif;
 }

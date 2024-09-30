@@ -21,6 +21,14 @@ body {
   padding: 0px;
 }
 
+p, h4, h5 {
+  font-family: 'Mavin Pro', sans-serif;
+}
+
+h1, h2, h3{
+  font-family: 'Avenir Heavy','sans-serif';
+}
+
 @import url('./Assets/Css/Header.css');
 @import url('./Assets/Css/Banner.css');
 @import url('./Assets/Css/Card.css');

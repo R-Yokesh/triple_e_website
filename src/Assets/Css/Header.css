@@ -48,9 +48,23 @@
 }
 
 .header-sec .fixed-top {
-    top: 15px;
+    /* top: 15px; */
 }
 
 .header-sec .navbar-light .navbar-toggler-icon {
     filter: invert(1);
+}
+
+.header-sec {
+    background-color: transparent; /* Initially transparent */
+    transition: background-color 0.5s ease; /* Smooth transition */
+}
+
+.header-sec.scrolled {
+    background-color: black; /* Change to black when scrolled */
+}
+
+.scrolled-navbar {
+    background-color: black !important; /* For Bootstrap Navbar if needed */
+    transition: background-color 0.5s ease; /* Smooth transition */
 }
