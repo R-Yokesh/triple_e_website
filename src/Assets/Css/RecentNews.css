@@ -46,10 +46,6 @@
   border-color: transparent; /* Keep the gradient on focus */
 }
 
-
-
-
-
 .recent-news-right {
   flex: 0 0 70%;
   display: flex;
@@ -103,6 +99,8 @@
 
 .all-news-left h2 {
   font-size: 36px;
+  font-family: 'Avenir Heavy';
+  font-weight: 800;
   color: white;
   margin-bottom: 50px;
 }
@@ -145,4 +143,83 @@
   /* background-color: rgba(0, 0, 0, 0.6);  */
   color: white;
   opacity: 1; /* Always visible */
+}
+
+
+@media (max-width: 1024px) {
+  .recent-news-container, .all-news-container {
+    flex-direction: column;
+    padding: 30px 0;
+  }
+
+  .recent-news-left, .all-news-left {
+    flex: 0 0 100%;
+    padding-right: 0;
+    padding-bottom: 30px;
+  }
+
+  .recent-news-right, .all-news-right {
+    flex: 0 0 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .news-card {
+    width: calc(100% / 2 - 20px); 
+  }
+
+  .search-bar input {
+    width: 90%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .recent-news-container, .all-news-container {
+    padding: 20px 0;
+  }
+
+  .recent-news-left h2, .all-news-left h2 {
+    font-size: 2rem;
+  }
+
+  .news-card {
+    width: 100%; 
+  }
+
+  .search-bar input {
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .recent-news-container, .all-news-container {
+    padding: 15px 0;
+  }
+
+  .recent-news-left h2, .all-news-left h2 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
+
+  .news-card {
+    width: 100%; 
+  }
+
+  .search-bar input {
+    width: 100%;
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+
+  .news-details h3 {
+    font-size: 20px;
+  }
+
+  .news-details p {
+    font-size: 14px;
+  }
 }
