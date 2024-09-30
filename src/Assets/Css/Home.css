@@ -17,6 +17,10 @@
     color: var(--redClr);
 }
 
+.about-text h1{
+    font-family: 'ArgueDemo', sans-serif;;
+}
+
 .about-text h1,
 .about-text h5 {
     color: var(--whiteClr);
@@ -30,6 +34,7 @@
 }
 
 .about-head {
+    font-family: 'ArgueDemo', sans-serif;
     text-align: center;
 }
 

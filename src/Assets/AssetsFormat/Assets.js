@@ -31,6 +31,7 @@ import DropdownIcon from '../Images/Dropdown.svg';
 import MinusIcon from '../Images/Minus.svg';
 import LeaderLogo from '../Images/leader-logo.png';
 
+
 const Assets = {
     Logo,
     Search,

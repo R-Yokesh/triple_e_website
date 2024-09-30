@@ -22,7 +22,7 @@ function Header() {
                         <Nav.Link><span><Link to='/'>Home</Link></span></Nav.Link>
                         <Nav.Link><span><Link to='/about'>About</Link></span></Nav.Link>
                         <Nav.Link><span><Link to=''>Events</Link></span></Nav.Link>
-                        <Nav.Link><span><Link to=''>News</Link></span></Nav.Link>
+                        <Nav.Link><span><Link to='/news'>News</Link></span></Nav.Link>
                         <Nav.Link><span><Link to=''>Contact</Link></span></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
