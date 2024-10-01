@@ -13,6 +13,10 @@
     z-index: 9;
 }
 
+.card-content h5{
+    font-family: 'Maven Pro' ,sans-serif;
+}
+
 .card-sec img {
     width: 100%;
 }

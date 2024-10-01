@@ -1,6 +1,7 @@
 .work-card-content .card-color-text,
 .card-link-sec a {
     color: var(--yellowClr);
+    font-family: 'Maven Pro' , sans-serif;
 }
 
 .work-card-content {
@@ -26,6 +27,7 @@
     color: var(--darkorangeClr);
     text-align: center;
     margin-bottom: 45px;
+    font-family: 'ArgueDemo' , sans-serif;
 }
 
 .our-work-main {
@@ -38,6 +40,8 @@
 
 .work-card-content p {
     margin-bottom: 0px;
+    font-family: 'Maven Pro' , sans-serif;
+
 }
 
 .more-project-btn button {
@@ -47,6 +51,7 @@
     padding: 10px 45px;
     border-radius: 12px;
     font-weight: 700;
+    font-family: 'Maven Pro' , sans-serif;
 }
 
 .more-project-btn {
