@@ -44,6 +44,7 @@ import MemberIcon from '../Images/Team/MemberICon.png';
 import LinkedInIcon from '../Images/Team/linkedin.svg';
 import BlackDots from '../Images/Team/BlackDots.svg';
 import WhiteDots from '../Images/Team/WhiteDots.svg';
+import ComminSoonImage from '../Images/coming-soon.jpg';
 
 const Assets = {
     Logo,
@@ -91,7 +92,8 @@ const Assets = {
     MemberIcon,
     LinkedInIcon,
     BlackDots,
-    WhiteDots
+    WhiteDots,
+    ComminSoonImage
 }
 
 export default Assets;

@@ -9,7 +9,7 @@ import ScrollToTop from './Components/ScrollTop/ScrollTop';
 function App() {
   return (
     <div className="App trible-site-main">
-      <Router basename='/trible'>
+      <Router basename='/triblee'>
         <div className='navbar-main'>
           <Header />
         </div>

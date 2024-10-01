@@ -2,7 +2,7 @@ import React from "react";
 
 const HomeView = React.lazy(() => import('../Views/HomeView'));
 const AboutView = React.lazy(() => import('../Views/AboutView'));
-const NewsView =  React.lazy(() => import('../Views/NewsView'));
+const NewsView = React.lazy(() => import('../Views/NewsView'));
 
 
 const RoutesData = [
