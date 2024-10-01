@@ -18,6 +18,7 @@
 .header-sec .search-sec p {
     margin-bottom: 0px;
     color: var(--whiteClr);
+    font-family: 'Maven Pro',sans-serif;
 }
 
 .header-sec .search-sec {

@@ -26,6 +26,10 @@
     color: var(--whiteClr);
 }
 
+.about-text h5 {
+    font-family: 'Maven Pro' , sans-serif;
+}
+
 .about-text {
     align-items: center;
     justify-content: center;

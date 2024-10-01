@@ -33,16 +33,23 @@
 
 .orange-text {
     color: var(--darkorangeClr);
+    font-family: 'Maven Pro' , sans-serif;
 }
 
 .light-green-text {
     color: var(--lightyellowClr);
+    font-family: 'Maven Pro' , sans-serif;
+
 }
 
 .green-text {
     color: var(--lightgreenClr);
+    font-family: 'Maven Pro' , sans-serif;
+
 }
 
 .blue-text {
     color: var(--skyBlue);
+    font-family: 'Maven Pro' , sans-serif;
+
 }
