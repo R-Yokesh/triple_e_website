@@ -10,7 +10,7 @@ function TeamCard({ data }) {
     return (
         <section className={contentSetup ? 'team-card-sec team-card-sec-bg' : 'team-card-sec'}>
             <img src={data.image} alt="Team-image" className='team-image' />
-            {!contentSetup &&
+            {/* {!contentSetup &&
                 <div className='team-member-content'>
                     <div className='row team-content-justify'>
                         <div className='content-left-side'>
@@ -39,7 +39,7 @@ function TeamCard({ data }) {
                     </div>
                     <div className='team-overlay common-overlay-sec'></div>
                 </div>
-            }
+            } */}
         </section>
     )
 }

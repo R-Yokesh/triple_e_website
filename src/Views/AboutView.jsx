@@ -125,7 +125,7 @@ function AboutView() {
                         </div>
                         <div className='row'>
                             {TeamContent.map((item, i) => (
-                                <div className='col-12 col-sm-6 col-lg-4 col-xxl-3 mb-5' key={i}>
+                                <div className='col-12 col-sm-4 col-lg-3 mb-5' key={i}>
                                     <TeamCard data={item} />
                                 </div>
                             ))}
