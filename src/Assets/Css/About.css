@@ -20,12 +20,12 @@
 .vision-main h1 {
     margin-bottom: 25px;
     font-family: 'ArgueDemo', sans-serif;
-    
+
 }
 
 .vision-main h5 {
     margin-bottom: 20px;
-    font-family: 'Maven Pro',sans-serif;
+    font-family: 'Maven Pro', sans-serif;
 }
 
 .mission-image img {
@@ -40,18 +40,18 @@
 .accord-head {
     color: var(--yellowClr);
     margin-bottom: 0px;
-    font-family: 'Maven Pro',sans-serif;
+    font-family: 'Maven Pro', sans-serif;
 }
 
 .accord-white {
     color: var(--whiteClr);
     margin-bottom: 0px;
-    font-family: 'Maven Pro',sans-serif;
+    font-family: 'Maven Pro', sans-serif;
 }
 
 .mission-content .accord-body {
     color: var(--whiteClr);
-    font-family: 'Maven Pro',sans-serif;
+    font-family: 'Maven Pro', sans-serif;
 }
 
 .mission-content .accordion-header button {
@@ -97,15 +97,18 @@
 .leader-text h5,
 .leader-text h1 {
     color: var(--whiteClr);
-    
-}
-.leader-text h1 {
-font-family: 'ArgueDemo', sans-serif;
-}
-.leader-text h5{
-    font-family: 'Maven Pro',sans-serif;
 
 }
+
+.leader-text h1 {
+    font-family: 'ArgueDemo', sans-serif;
+}
+
+.leader-text h5 {
+    font-family: 'Maven Pro', sans-serif;
+
+}
+
 .leadership-main {
     padding: 6% 0%;
 }
@@ -184,6 +187,7 @@ font-family: 'ArgueDemo', sans-serif;
 
 .team-main h1 {
     margin-bottom: 20px;
+    font-family: 'ArgueDemo', sans-serif;
 }
 
 .team-main h5 {
