@@ -52,17 +52,19 @@ function Header() {
                         ) : (
                             <p>Search</p>
                         )}
-                        <img
-                            src={Assets.Search}
-                            alt="search-icon"
-                            className={SearchDisplay ? 'box-display' : ''}
-                            onClick={() => setSearchDisplay(true)}
-                        />
-                        {SearchDisplay && (
+                        
+                        {!SearchDisplay ? (
+                            <img
+                                src={Assets.Search}
+                                alt="search-icon"
+                                onClick={() => setSearchDisplay(true)}
+                                style={{ cursor: 'pointer' }}
+                            />
+                        ) : (
                             <span
                                 className='cancel-sec'
                                 onClick={() => setSearchDisplay(false)}
-                                style={{ cursor: 'pointer', padding: '0 10px' }}
+                                style={{ cursor: 'pointer', padding: '0 10px', fontSize: '24px' }}
                             >
                                 &times;
                             </span>
