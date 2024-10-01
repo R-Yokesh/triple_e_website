@@ -12,6 +12,7 @@
 .contact-address a:hover {
     color: var(--whiteClr);
     text-decoration: none;
+    font-family: 'Maven Pro',sans-serif;
 }
 
 .contact-links img {
@@ -34,6 +35,8 @@
 
 .contact-content h5 {
     padding: 5% 0% 10% 0%;
+    font-family: 'Maven Pro',sans-serif;
+
 }
 
 .contact-form-sec input,

@@ -5,6 +5,7 @@ import Assets from '../../Assets/AssetsFormat/Assets';
 
 function Header() {
     const [isScrolled, setIsScrolled] = useState(false);
+    const [SearchDisplay, setSearchDisplay] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -41,13 +42,31 @@ function Header() {
                 </Navbar.Collapse>
                 <Navbar.Collapse id="navbarScroll" className='justify-sec'>
                     <Form className="d-flex search-sec">
-                        <p>Search</p>
+                        {SearchDisplay ? (
+                            <Form.Control
+                                type="search"
+                                placeholder="Search"
+                                className="me-2"
+                                aria-label="Search"
+                            />
+                        ) : (
+                            <p>Search</p>
+                        )}
                         <img
                             src={Assets.Search}
                             alt="search-icon"
-                            className="search-icon"
-                            onClick={() => console.log("Search clicked")}
+                            className={SearchDisplay ? 'box-display' : ''}
+                            onClick={() => setSearchDisplay(true)}
                         />
+                        {SearchDisplay && (
+                            <span
+                                className='cancel-sec'
+                                onClick={() => setSearchDisplay(false)}
+                                style={{ cursor: 'pointer', padding: '0 10px' }}
+                            >
+                                &times;
+                            </span>
+                        )}
                     </Form>
                 </Navbar.Collapse>
             </Navbar>
