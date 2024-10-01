@@ -21,14 +21,6 @@ body {
   padding: 0px;
 }
 
-p, h4, h5 {
-  font-family: 'Mavin Pro', 'sans-serif';
-}
-
-h1, h2, h3{
-  font-family: 'Avenir Heavy','sans-serif';
-}
-
 @import url('./Assets/Css/Header.css');
 @import url('./Assets/Css/Banner.css');
 @import url('./Assets/Css/Card.css');
@@ -53,7 +45,7 @@ h1, h2, h3{
 @font-face {
   font-family: 'Avenir Heavy';
   src: url('./Assets/Fonts/Avenir\ Heavy.ttf') format('truetype');
-  font-weight: 700; 
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -63,6 +55,18 @@ h1, h2, h3{
   src: url('./Assets/Fonts/MavenPro-VariableFont_wght.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+}
+
+p,
+h4,
+h5 {
+  font-family: 'Mavin Pro', 'sans-serif';
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Avenir Heavy', 'sans-serif';
 }
 
 
@@ -115,6 +119,26 @@ h1, h2, h3{
 
   .tree-content {
     width: 35.5%;
+  }
+
+  .common-overlay-sec {
+    padding: 12px;
+  }
+
+  .team-data-sec {
+    margin-bottom: 5px;
+  }
+
+  .hide-linked-img {
+    bottom: 15px;
+  }
+
+  .common-overlay-sec {
+    border-radius: 25px;
+  }
+
+  .team-card-sec-bg {
+    border-radius: 33px;
   }
 }
 
@@ -199,7 +223,8 @@ h1, h2, h3{
   .about-text h1,
   .vision-main h1,
   .mission-head-text,
-  .leader-text h1 {
+  .leader-text h1,
+  .team-main h1 {
     font-size: 30px;
   }
 
@@ -314,6 +339,10 @@ h1, h2, h3{
   .contact-form-sec label {
     font-size: 16px;
   }
+
+  .team-main h5 {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -341,6 +370,14 @@ h1, h2, h3{
   .App button {
     font-size: 12px;
   }
+
+  .team-card-sec-bg {
+    border-radius: 30px;
+  }
+
+  .common-overlay-sec {
+    border-radius: 21px;
+  }
 }
 
 @media screen and (max-width: 405px) {
@@ -352,7 +389,8 @@ h1, h2, h3{
   .affiliation-sec .head-orange,
   .vision-main h1,
   .mission-head-text,
-  .leader-text h1 {
+  .leader-text h1,
+  .team-main h1 {
     font-size: 25px;
   }
 
@@ -365,7 +403,8 @@ h1, h2, h3{
   .vision-main h5,
   .mission-content .accordion-header button,
   .accord-head,
-  .leader-text h5 {
+  .leader-text h5,
+  .team-main h5 {
     font-size: 16px;
   }
 

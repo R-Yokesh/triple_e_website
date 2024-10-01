@@ -30,7 +30,20 @@ import Vision from '../Images/vision.png';
 import DropdownIcon from '../Images/Dropdown.svg';
 import MinusIcon from '../Images/Minus.svg';
 import LeaderLogo from '../Images/leader-logo.png';
-
+import MemberOne from '../Images/Team/MemberOne.png';
+import MemberTwo from '../Images/Team/MemberTwo.png';
+import MemberThree from '../Images/Team/MemberThree.png';
+import MemberFour from '../Images/Team/MemberFour.png';
+import MemberFive from '../Images/Team/MemberFive.png';
+import MemberSix from '../Images/Team/MemberSix.png';
+import MemberSeven from '../Images/Team/MemberSeven.png';
+import MemberEight from '../Images/Team/MemberEight.png';
+import MemberNine from '../Images/Team/MemberNine.png';
+import MemberTen from '../Images/Team/MemberTen.png';
+import MemberIcon from '../Images/Team/MemberICon.png';
+import LinkedInIcon from '../Images/Team/linkedin.svg';
+import BlackDots from '../Images/Team/BlackDots.svg';
+import WhiteDots from '../Images/Team/WhiteDots.svg';
 
 const Assets = {
     Logo,
@@ -64,7 +77,21 @@ const Assets = {
     Vision,
     DropdownIcon,
     MinusIcon,
-    LeaderLogo
+    LeaderLogo,
+    MemberOne,
+    MemberTwo,
+    MemberThree,
+    MemberFour,
+    MemberFive,
+    MemberSix,
+    MemberSeven,
+    MemberEight,
+    MemberNine,
+    MemberTen,
+    MemberIcon,
+    LinkedInIcon,
+    BlackDots,
+    WhiteDots
 }
 
 export default Assets;
