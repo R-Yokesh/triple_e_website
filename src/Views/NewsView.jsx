@@ -10,9 +10,9 @@ import RecentNews from '../Components/RecentNews/RecentNews';
 function NewsView() {
     return (
         <div className='newspage-main'>
-            <div className='banner-main'>
+            {/* <div className='banner-main'>
                 <Banner image={Assets.AboutBanner} contentOne="Insights, Updates and Events:Stay informed and inspired" />
-            </div>
+            </div> */}
             <div className='background-setup'>
                 <div className='common-space'>
                 <RecentNews />
@@ -20,7 +20,7 @@ function NewsView() {
             </div>
                 
 
-                <div className='contact-main'>
+                {/* <div className='contact-main'>
                 <div className='common-space'>
                     <div className='row'>
                         <div className='col-12 col-sm-12 col-lg-5'>
@@ -31,7 +31,7 @@ function NewsView() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             </div>
 
     )

@@ -2,6 +2,18 @@
 .recent-news-container {
   display: flex;
   padding: 50px 0px;
+  height: 100vh;
+  justify-content: space-around;
+}
+
+.coming-soon {
+  display: flex;
+  font-size: 5rem;
+  font-family: 'Avenir Heavy', sans-serif;
+  background: linear-gradient(to right, #f9d423, #ff4e50);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  align-items: center;
 }
 
 .recent-news-left {
