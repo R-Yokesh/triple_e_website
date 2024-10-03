@@ -12,8 +12,11 @@ const RecentNews = () => {
   return (
     <div>
     <div className="recent-news-container">
-      {/* Left Column - 30% */}
-      <div className="recent-news-left">
+
+    <h1 className="coming-soon">Coming Soon...</h1>
+
+      
+      {/* <div className="recent-news-left">
         <h2>Recent<br/> 
         News</h2>
         <div className="search-bar">
@@ -21,7 +24,7 @@ const RecentNews = () => {
         </div>
       </div>
 
-      {/* Right Column - 70% */}
+      
       <div className="recent-news-right">
         <div className="news-card">
           <img src={RN1} alt="News 1" />
@@ -53,7 +56,7 @@ const RecentNews = () => {
     </div>
 
     <div className="all-news-container">
-      {/* Left Column - 30% */}
+    
       <div className="all-news-left">
         <h2>All News</h2>
         <div className="search-bar">
@@ -67,7 +70,7 @@ const RecentNews = () => {
         </div>
       </div>
 
-      {/* Right Column - 70% */}
+      
       <div className="all-news-right">
         <div className="news-card">
           <img src={AN1} alt="News 1" />
@@ -150,7 +153,7 @@ const RecentNews = () => {
           </div>
         </div>
 
-      </div>
+      </div> */}
     </div>
     
     </div>
