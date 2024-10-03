@@ -131,7 +131,8 @@
 
 .team-member-content .team-content-justify {
     margin: 0px;
-    justify-content: space-around;
+    justify-content: flex-start;
+    padding: 0px 15px;
     align-items: center;
 }
 

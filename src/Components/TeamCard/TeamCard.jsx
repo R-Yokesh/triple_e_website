@@ -10,21 +10,21 @@ function TeamCard({ data }) {
     return (
         <section className={contentSetup ? 'team-card-sec team-card-sec-bg' : 'team-card-sec'}>
             <img src={data.image} alt="Team-image" className='team-image' />
-            {/* {!contentSetup &&
+            {!contentSetup &&
                 <div className='team-member-content'>
                     <div className='row team-content-justify'>
                         <div className='content-left-side'>
                             <p className='member-designation'>{data.designation}</p>
                             <p className='member-name'>{data.name}</p>
                         </div>
-                        <div className='content-right-side'>
+                        {/* <div className='content-right-side'>
                             <img src={Assets.BlackDots} alt="dot-icon" onClick={() => (setContentSetup(!contentSetup))} />
                             <img src={Assets.LinkedInIcon} alt="linedin-icons" />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             }
-            {contentSetup &&
+            {/* {contentSetup &&
                 <div>
                     <div className='hidden-content common-overlay-sec'>
                         <div className='team-data-sec'>
