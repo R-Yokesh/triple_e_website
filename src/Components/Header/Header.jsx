@@ -35,9 +35,9 @@ function Header() {
                     <Nav className="me-auto my-2 my-lg-0" navbarScroll>
                         <Nav.Link><span><Link to='/'>Home</Link></span></Nav.Link>
                         <Nav.Link><span><Link to='/about'>About</Link></span></Nav.Link>
-                        <Nav.Link><span><Link to='/'>Events</Link></span></Nav.Link>
+                        <Nav.Link><span><Link to='/event'>Events</Link></span></Nav.Link>
                         <Nav.Link><span><Link to='/news'>News</Link></span></Nav.Link>
-                        <Nav.Link><span><Link to='/'>Contact</Link></span></Nav.Link>
+                        <Nav.Link><span><Link to='/contact'>Contact</Link></span></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 <Navbar.Collapse id="navbarScroll" className='justify-sec'>

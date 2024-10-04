@@ -46,6 +46,7 @@ import BlackDots from '../Images/Team/BlackDots.svg';
 import WhiteDots from '../Images/Team/WhiteDots.svg';
 import ComminSoonImage from '../Images/coming-soon.jpg';
 
+
 const Assets = {
     Logo,
     Search,
@@ -93,7 +94,7 @@ const Assets = {
     LinkedInIcon,
     BlackDots,
     WhiteDots,
-    ComminSoonImage
+    ComminSoonImage,
 }
 
 export default Assets;

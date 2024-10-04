@@ -1,0 +1,113 @@
+/* Container */
+.event-container {
+  display: flex;
+  padding: 6% 0;
+  /* background-color: #141414; */
+}
+
+.event-container.reverse {
+  flex-direction: row-reverse;
+}
+
+.event-left {
+  flex: 1;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.event-left h2 {
+  font-size: 4rem;
+  color: var(--darkorangeClr);
+  font-family: 'ArgueDemo', sans-serif;
+  margin-bottom: 10px;
+}
+
+.event-left p {
+  color: #ccc;
+  font-size: 1.5rem;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.event-right {
+  flex: 2;
+  position: relative;
+  border: 1px solid transparent;
+  border-image: linear-gradient(to right, #f9d423, #ff4e50) 1;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.event-right img {
+  width: 100%;
+  height: 70vh;
+  transition: opacity 1s ease, transform 1s ease;
+  opacity: 1; /* Ensure visibility */
+  transform: scale(1);
+}
+
+/* Dots Container */
+.dots-container {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  margin: 0 4px;
+  background-color: #888;
+  border-radius: 50%;
+  transition: background-color 1s ease;
+}
+
+.dot.active {
+  background-color: var(--darkorangeClr);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .event-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Disable Reverse on Mobile */
+  .event-container.reverse {
+    flex-direction: column;
+  }
+
+  .event-left {
+    text-align: center;
+    padding: 0 10px;
+    margin-bottom: 20px;
+  }
+
+  .event-left h2 {
+    font-size: 2.5rem;
+  }
+
+  .event-left p {
+    font-size: 1rem;
+  }
+
+  /* One-by-One Image Display */
+  .event-right {
+    flex-direction: column;
+    width: 100%;
+    /* padding: 0 10px; */
+  }
+
+  .event-right img {
+    height: auto;
+    /* margin-bottom: 20px; */
+    opacity: 1;
+    transform: translateY(0); 
+  }
+}
