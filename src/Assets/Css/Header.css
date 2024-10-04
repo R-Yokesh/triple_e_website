@@ -39,6 +39,7 @@
 .header-sec .nav-link a {
     color: var(--whiteClr);
     padding: 0px 6px 6px 6px;
+    font-family: 'Maven Pro',sans-serif;
 }
 
 .header-sec .nav-link a:hover {
