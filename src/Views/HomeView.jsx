@@ -116,33 +116,62 @@ function HomeView() {
     const OurWorkContent = [
         {
             id: 1,
-            image: Assets.leftSpeciality,
-            head: 'Unwavering Quality:',
-            content: `From day one, our commitment to quality and client satisfaction has propelled us to set new industry standards. Excellence isn’t just a goal; it’s our foundation.`,
+            images: [
+                Assets.Driyah1,
+                Assets.Driyah2,
+                Assets.Driyah3,
+                Assets.Driyah4,
+                Assets.Driyah5,
+                
+            ],
+            head: 'Driyah',
+            content: `Promoting Diriyah as a vibrant touristic, social and business destination.`,
             link: ''
         },
         {
             id: 2,
-            image: Assets.leftSpeciality,
-            head: 'Unwavering Quality:',
-            content: `From day one, our commitment to quality and client satisfaction has propelled us to set new industry standards. Excellence isn’t just a goal; it’s our foundation.`,
+            images: [
+                
+                Assets.Ferrari1,
+                Assets.Ferrari2,
+                Assets.Ferrari3,
+                Assets.Ferrari4,
+                Assets.Ferrari5,
+            ],
+            head: 'Ferrari',
+            content: `Launching the new Ferrari model Conceptual themes.`,
             link: ''
         },
         {
             id: 3,
-            image: Assets.leftSpeciality,
-            head: 'Unwavering Quality:',
-            content: `From day one, our commitment to quality and client satisfaction has propelled us to set new industry standards. Excellence isn’t just a goal; it’s our foundation.`,
+            images: [
+                Assets.RedCrescent1,
+                Assets.RedCrescent2,
+                Assets.RedCrescent3,
+                Assets.RedCrescent4,
+                Assets.RedCrescent5,
+
+            ],
+            head: 'Red Crescent',
+            content: `Highlighting the humanitarian efforts of Red Crescent.`,
             link: ''
         },
         {
             id: 4,
-            image: Assets.leftSpeciality,
-            head: 'Unwavering Quality:',
-            content: `From day one, our commitment to quality and client satisfaction has propelled us to set new industry standards. Excellence isn’t just a goal; it’s our foundation.`,
+            images: [
+                
+                Assets.Tadawul1,
+                Assets.Tadawul2,
+                Assets.Tadawul3,
+                Assets.Tadawul4,
+                Assets.Tadawul5,
+            ],
+            head: 'Tadawul',
+            content: `Exploring Tadawul’s financial and trading initiatives.`,
             link: ''
         }
-    ]
+    ];
+    
 
     return (
         <div className='home-main'>
@@ -198,15 +227,15 @@ function HomeView() {
                     </div>
                 </div>
                 <div className='our-work-main'>
-                    <div className='common-space'>
-                        <h1>Our Work</h1>
-                        <div className='row'>
-                            {OurWorkContent.map((item, i) => (
-                                <div className='col-12 col-md-6' key={i}>
-                                    <WorkCard data={item} />
-                                </div>
-                            ))}
-                        </div>
+                    <div className='common-space'>  
+                    <h1>Our Work</h1>
+            <div className='row'>
+                {OurWorkContent.map((item, i) => (
+                    <div className='col-12 col-md-6' key={i}>
+                        <WorkCard data={item} />
+                    </div>
+                ))}
+            </div>
                         <div className='more-project-btn'>
                             <button>See more projects</button>
                         </div>

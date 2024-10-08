@@ -2,7 +2,6 @@
 .event-container {
   display: flex;
   padding: 6% 0;
-  /* background-color: #141414; */
 }
 
 .event-container.reverse {
@@ -41,9 +40,11 @@
   justify-content: center;
 }
 
-.event-right img {
+/* Video Styles */
+.event-video {
   width: 100%;
   height: 70vh;
+  object-fit: cover;
   transition: opacity 1s ease, transform 1s ease;
   opacity: 1; /* Ensure visibility */
   transform: scale(1);
@@ -52,7 +53,7 @@
 /* Dots Container */
 .dots-container {
   position: absolute;
-  bottom: 10px;
+  bottom: 35px;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -68,7 +69,7 @@
 }
 
 .dot.active {
-  background-color: var(--darkorangeClr);
+  background-color: var(--yellowClr);
 }
 
 /* Responsive Design */
@@ -78,7 +79,6 @@
     align-items: center;
   }
 
-  /* Disable Reverse on Mobile */
   .event-container.reverse {
     flex-direction: column;
   }
@@ -97,17 +97,14 @@
     font-size: 1rem;
   }
 
-  /* One-by-One Image Display */
   .event-right {
     flex-direction: column;
     width: 100%;
-    /* padding: 0 10px; */
   }
 
-  .event-right img {
+  .event-video {
     height: auto;
-    /* margin-bottom: 20px; */
     opacity: 1;
-    transform: translateY(0); 
+    transform: translateY(0);
   }
 }

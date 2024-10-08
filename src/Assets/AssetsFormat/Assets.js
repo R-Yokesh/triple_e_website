@@ -47,6 +47,32 @@ import WhiteDots from '../Images/Team/WhiteDots.svg';
 import ComminSoonImage from '../Images/coming-soon.jpg';
 
 
+
+import Driyah1 from '../Images/Events/diriyah1.png';
+import Driyah2 from '../Images/Events/diriyah2.png';
+import Driyah3 from '../Images/Events/diriyah3.png';
+import Driyah4 from '../Images/Events/diriyah4.png';
+import Driyah5 from '../Images/Events/diriyah5.jpg';
+ 
+import Ferrari1 from '../Images/Events/Ferrari1.png';
+import Ferrari2 from '../Images/Events/Ferrari2.png';
+import Ferrari3 from '../Images/Events/Ferrari3.png';
+import Ferrari4 from '../Images/Events/Ferrari4.png';
+import Ferrari5 from '../Images/Events/Ferrari5.png';
+ 
+import RedCrescent1 from '../Images/Events/Red1.jpg';
+import RedCrescent2 from '../Images/Events/Red2.jpg';
+import RedCrescent3 from '../Images/Events/Red3.jpg';
+import RedCrescent4 from '../Images/Events/Red4.jpg';
+import RedCrescent5 from '../Images/Events/Red5.jpg';
+ 
+import Tadawul1 from '../Images/Events/Tadawul1.jpg';
+import Tadawul2 from '../Images/Events/Tadawul2.jpg';
+import Tadawul3 from '../Images/Events/Tadawul3.jpg';
+import Tadawul4 from '../Images/Events/Tadawul4.jpg';
+import Tadawul5 from '../Images/Events/Tadawul5.jpg';
+
+
 const Assets = {
     Logo,
     Search,
@@ -95,6 +121,32 @@ const Assets = {
     BlackDots,
     WhiteDots,
     ComminSoonImage,
+
+    // Our Work Images 
+    Driyah1,
+    Driyah2,
+    Driyah3,
+    Driyah4,
+    Driyah5,
+
+    Ferrari1,
+    Ferrari2,
+    Ferrari3,
+    Ferrari4,
+    Ferrari5,
+
+    RedCrescent1,
+    RedCrescent2,
+    RedCrescent3,
+    RedCrescent4,
+    RedCrescent5,
+
+    Tadawul1,
+    Tadawul2,
+    Tadawul3,
+    Tadawul4,
+    Tadawul5,
+
 }
 
 export default Assets;
