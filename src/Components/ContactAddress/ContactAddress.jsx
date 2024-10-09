@@ -11,8 +11,8 @@ function ContactAddress() {
             <div className='contact-links'>
                 <div className='row'>
                     <img src={Assets.CallIcon} alt="Call-icon" />
-                    <a href="tel:+966581677070">+966581677070</a>
-                    <a href="tel:+966501007811">+966501007811</a>
+                    <p className='contact-styling'>+966581677070</p>
+                    <p className='contact-styling'>+966501007811</p>
                 </div>
                 {/* <div className='row'>
                     <img src={Assets.MailIcon} alt="Mail-icon" />
@@ -20,7 +20,7 @@ function ContactAddress() {
                 </div> */}
                 <div className='row'>
                     <img src={Assets.LocationIcon} alt="Location-icon" />
-                    <a href="#" target='_blank'>No:9, 1st floor, AI Ghadeer Center <br /> King Abdulaziz Road <br />Riyadh</a>
+                    <p className='contact-styling'>No:9, 1st floor, AI Ghadeer Center <br /> King Abdulaziz Road <br />Riyadh</p>
                 </div>
             </div>
         </section>
