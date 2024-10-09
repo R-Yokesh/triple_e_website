@@ -116,62 +116,33 @@ function HomeView() {
     const OurWorkContent = [
         {
             id: 1,
-            images: [
-                Assets.Driyah1,
-                Assets.Driyah2,
-                Assets.Driyah3,
-                Assets.Driyah4,
-                Assets.Driyah5,
-                
-            ],
+            image: Assets.WorkDriyah,
             head: 'Driyah',
             content: `Promoting Diriyah as a vibrant touristic, social and business destination.`,
             link: ''
         },
         {
             id: 2,
-            images: [
-                
-                Assets.Ferrari1,
-                Assets.Ferrari2,
-                Assets.Ferrari3,
-                Assets.Ferrari4,
-                Assets.Ferrari5,
-            ],
+            image: Assets.WorkFerrari,
             head: 'Ferrari',
             content: `Launching the new Ferrari model Conceptual themes.`,
             link: ''
         },
         {
             id: 3,
-            images: [
-                Assets.RedCrescent1,
-                Assets.RedCrescent2,
-                Assets.RedCrescent3,
-                Assets.RedCrescent4,
-                Assets.RedCrescent5,
-
-            ],
+            image: Assets.WorkRed,
             head: 'Red Crescent',
             content: `Highlighting the humanitarian efforts of Red Crescent.`,
             link: ''
         },
         {
             id: 4,
-            images: [
-                
-                Assets.Tadawul1,
-                Assets.Tadawul2,
-                Assets.Tadawul3,
-                Assets.Tadawul4,
-                Assets.Tadawul5,
-            ],
+            image: Assets.WorkTad,
             head: 'Tadawul',
             content: `Exploring Tadawul’s financial and trading initiatives.`,
             link: ''
         }
-    ];
-    
+    ]
 
     return (
         <div className='home-main'>
@@ -227,15 +198,15 @@ function HomeView() {
                     </div>
                 </div>
                 <div className='our-work-main'>
-                    <div className='common-space'>  
-                    <h1>Our Work</h1>
-            <div className='row'>
-                {OurWorkContent.map((item, i) => (
-                    <div className='col-12 col-md-6' key={i}>
-                        <WorkCard data={item} />
-                    </div>
-                ))}
-            </div>
+                    <div className='common-space'>
+                        <h1>Our Work</h1>
+                        <div className='row'>
+                            {OurWorkContent.map((item, i) => (
+                                <div className='col-12 col-md-6' key={i}>
+                                    <WorkCard data={item} />
+                                </div>
+                            ))}
+                        </div>
                         <div className='more-project-btn'>
                             <button>See more projects</button>
                         </div>
