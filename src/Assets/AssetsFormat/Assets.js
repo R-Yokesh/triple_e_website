@@ -46,6 +46,14 @@ import BlackDots from '../Images/Team/BlackDots.svg';
 import WhiteDots from '../Images/Team/WhiteDots.svg';
 import ComminSoonImage from '../Images/coming-soon.jpg';
 
+import WorkDriyah from '../Images/OurWork/diriyahw1.png'
+import WorkFerrari from '../Images/OurWork/Ferrariw1.png'
+import WorkRed from '../Images/OurWork/Redw1.png'
+import WorkTad from '../Images/OurWork/Tadawulw2.png'
+
+
+
+
 
 const Assets = {
     Logo,
@@ -95,6 +103,12 @@ const Assets = {
     BlackDots,
     WhiteDots,
     ComminSoonImage,
+
+    WorkDriyah,
+    WorkFerrari,
+    WorkRed,
+    WorkTad
+
 }
 
 export default Assets;

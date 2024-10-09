@@ -13,7 +13,7 @@ function WorkCard({ data }) {
                     <p>{data.content}</p>
                 </div>
                 <div className='card-link-sec'>
-                    <Link to={data.link}>Know More</Link>
+                    <Link to='/event'>Know More</Link>
                 </div>
             </div>
         </section>

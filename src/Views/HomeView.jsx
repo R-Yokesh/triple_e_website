@@ -116,30 +116,30 @@ function HomeView() {
     const OurWorkContent = [
         {
             id: 1,
-            image: Assets.leftSpeciality,
-            head: 'Unwavering Quality:',
-            content: `From day one, our commitment to quality and client satisfaction has propelled us to set new industry standards. Excellence isn’t just a goal; it’s our foundation.`,
+            image: Assets.WorkDriyah,
+            head: 'Driyah',
+            content: `Promoting Diriyah as a vibrant touristic, social and business destination.`,
             link: ''
         },
         {
             id: 2,
-            image: Assets.leftSpeciality,
-            head: 'Unwavering Quality:',
-            content: `From day one, our commitment to quality and client satisfaction has propelled us to set new industry standards. Excellence isn’t just a goal; it’s our foundation.`,
+            image: Assets.WorkFerrari,
+            head: 'Ferrari',
+            content: `Launching the new Ferrari model Conceptual themes.`,
             link: ''
         },
         {
             id: 3,
-            image: Assets.leftSpeciality,
-            head: 'Unwavering Quality:',
-            content: `From day one, our commitment to quality and client satisfaction has propelled us to set new industry standards. Excellence isn’t just a goal; it’s our foundation.`,
+            image: Assets.WorkRed,
+            head: 'Red Crescent',
+            content: `Highlighting the humanitarian efforts of Red Crescent.`,
             link: ''
         },
         {
             id: 4,
-            image: Assets.leftSpeciality,
-            head: 'Unwavering Quality:',
-            content: `From day one, our commitment to quality and client satisfaction has propelled us to set new industry standards. Excellence isn’t just a goal; it’s our foundation.`,
+            image: Assets.WorkTad,
+            head: 'Tadawul',
+            content: `Exploring Tadawul’s financial and trading initiatives.`,
             link: ''
         }
     ]
