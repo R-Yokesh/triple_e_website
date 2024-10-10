@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import '../../Assets/Css/Event.css';
 
 import DriyahVideo from '../../Assets/Images/CoverVideos/diriyah_cover video.webm';
-import FerrariImage from '../../Assets/Images/Events/Ferrari3.png'
+import FerrariImage from '../../Assets/Images/CoverVideos/Ferrari3.png'
 // import RedCrescentVideo from '../../Assets/Images/CoverVideos/red crescent_cover video.webm';
 import RedCrescentVideo from '../../Assets/Images/CoverVideos/red_crescent_cover video.mp4';
 import TadawulVideo from '../../Assets/Images/CoverVideos/tadawul_cover video.webm';
